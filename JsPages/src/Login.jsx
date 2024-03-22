@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
 
-function Admin() {
-  const [count, setCount] = useState(1)
+function Login() {
+  const [count, setCount] = useState(4)
 
   return (
     <>
@@ -22,7 +21,7 @@ function Admin() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/Login.jsx</code> and save to Login HMR
         </p>
       </div>
       <p className="read-the-docs">
@@ -32,4 +31,4 @@ function Admin() {
   )
 }
 
-export default Admin
+export default Login

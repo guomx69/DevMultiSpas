@@ -5,21 +5,22 @@ import { resolve } from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "",
+  server:{
+    port:8070,
+    //host:'192.168.0.225',
+    strictPort:true,
+    open:"/pages/admin.html"
+ },
+  base: "/admin/v1",
   build: {
     rollupOptions: {
       input: {
-        public: resolve(__dirname, './public.html'),
-        admin: resolve(__dirname, './admin.html'),
+        admin: resolve(__dirname, './pages/admin.html'),
       },
       output: [
         {
-          name: "public",
-          dir: "dist_public",
-        },
-        {
           name: "admin",
-          dir: "dist_admin",
+          dir: "dist",
         }
       ]
     },
