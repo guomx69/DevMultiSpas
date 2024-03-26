@@ -1,0 +1,1 @@
+import{gm as o,gn as n,go as s}from"./appSetting-DUM-gYes.js";const e=()=>{console.log("TestFromAdmin is called")};console.log(o);const m=9,a=[-95.805,29.027],t=new n({basemap:"hybrid"});new s({container:"adminRoot",map:t,zoom:m,center:a});e();

@@ -1,0 +1,8 @@
+html,
+body,
+#mainRoot {
+  padding: 0;
+  margin: 0;
+  height: 380px;
+  width: 100%;
+}

@@ -7,16 +7,15 @@
     "test": "console.log('test')",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-
     "dev-admin": "vite --config vite.config.admin.js",
     "dev-test": "run-p dev-admin dev",
     "dev": "vite",
-
     "build-admin": "vite build --config vite.config.admin.js",
     "build-test": "run-p build-admin build",
     "build": "vite build"
   },
   "dependencies": {
+    "@arcgis/core": "^4.29.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

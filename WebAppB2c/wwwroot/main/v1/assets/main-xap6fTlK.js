@@ -1,0 +1,1 @@
+import{gm as o,gn as e,go as s}from"./appSetting-DUM-gYes.js";const n=()=>{console.log("TestFromHome is called")};console.log(o);const m=8,a=[-95.805,29.027],t=new e({basemap:"hybrid"});new s({container:"mainRoot",map:t,zoom:m,center:a});n();

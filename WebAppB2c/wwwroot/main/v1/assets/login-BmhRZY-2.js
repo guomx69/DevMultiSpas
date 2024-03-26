@@ -1,0 +1,1 @@
+import{gm as o,gn as n,go as s}from"./appSetting-DUM-gYes.js";const e=()=>{console.log("TestFromLogin is called")};console.log(o);const t=10,a=[-95.805,29.027],c=new n({basemap:"hybrid"});new s({container:"loginRoot",map:c,zoom:t,center:a});e();

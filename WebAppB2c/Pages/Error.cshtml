@@ -1,0 +1,27 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h3>Development Mode</h3>
+ <div id="loginRoot"></div>
+
+
+
+@*development code start here*@
+
+@*development code end here*@
+@*proudction code start here*@
+    <script type="module" crossorigin src="/main/v1/assets/login-BmhRZY-2.js"></script>
+    <link rel="modulepreload" crossorigin href="/main/v1/assets/appSetting-DUM-gYes.js">
+    <link rel="stylesheet" crossorigin href="/main/v1/assets/login-4igqjHbM.css">
+@*proudction code end here*@
+
+@section Scripts {
+    @* <script src="~/js/common.js"></script> *@
+}
+@section Styles {
+      @* <link rel="stylesheet" href="~/css/test.css" asp-append-version="true" /> *@
+}
+
