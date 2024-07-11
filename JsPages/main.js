@@ -1,4 +1,4 @@
-import TestFromHome from './src/Home.js'
+import getLatLng from './src/Home.js'
 
 import Map from "@arcgis/core/Map";
 import MapView from "@arcgis/core/views/MapView";
@@ -15,4 +15,5 @@ const map = new Map({
 const view = new MapView({ container: "mainRoot",map, 
                            zoom,
                            center, });
-TestFromHome();
+const crd= getLatLng();
+console.log("COORDS::",crd);

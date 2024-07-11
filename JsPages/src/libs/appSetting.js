@@ -1,4 +1,4 @@
-export const isDev=false;
+export const isDev=true;
 
 console.warn = (message,more) => { 
     console.log('%c ' + message+"  "+more, 'color: red; font-weight:bold') 
